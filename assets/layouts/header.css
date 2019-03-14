@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  background-color: #fff;
+  border-bottom: 1px solid #dbdfe1;
+  width: 100%;
+}
+
+header.header {
+  padding: 0 30px;
+  display: flex;
+}
+
+header ul.menu {
+  flex: 1;
+  flex-wrap: nowrap;
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header.menu li.memu-item{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
