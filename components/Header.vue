@@ -9,10 +9,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="/project">プロジェクト</a>
+          <nuxt-link to="/about" class="nav-link">プロジェクト</nuxt-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/users">ユーザー</a>
+          <nuxt-link to="/users" class="nav-link">ユーザー</nuxt-link>
         </li>
       </ul>
     </div>
